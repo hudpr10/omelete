@@ -1,0 +1,108 @@
+@import url(default.css);
+@import url(responsive.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--branco);
+    color: var(--dark-charcoal);
+    font-family: var(--outfit);
+    font-size: 1rem;
+    transition: 600ms;
+}
+
+.image {
+    width: 100%;
+}
+
+.container {
+    padding: 24px 24px;
+}
+
+.container header, .container, .container main {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.title {
+    font-family: var(--young-serif);
+    font-size: 2rem;
+}
+
+.paragraph {
+    color: var(--wenge-brown);
+}
+
+.glass-card {
+    background-color: var(--rose-white);
+    border-radius: 16px;
+    padding: 8px 16px;
+}
+
+.glass-card .title-card {
+    color: var(--dark-raspberry);
+    font-size: 1.2rem;
+    margin: 8px 0;
+}
+
+.glass-card .item {
+    margin: 8px 20px;
+    color: var(--dark-raspberry);
+}
+
+.glass-card .item span, .session-list .item span {
+    color: var(--wenge-brown);
+}
+
+.title-sub {
+    font-family: var(--young-serif);
+    color: var(--nutmeg);
+    margin-bottom: 8px;
+}
+
+.session-list .item {
+    margin: 8px 20px;
+    color: var(--nutmeg);
+}
+
+.session-list .item .strong-item {
+    color: var(--wenge-brown);
+}
+
+.line-divider {
+    background-color: var(--light-gray);
+    height: 1px;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.table {
+    margin-top: 16px;
+    width: 100%;
+    border-spacing: 0;
+}
+
+.table .table-description {
+    color: var(--wenge-brown);
+    width: 50%;
+    padding: 8px 0 8px 32px;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.table .table-head {
+    color: var(--nutmeg);
+    text-align: left;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.table .table-border {
+    border-bottom: none;
+}
